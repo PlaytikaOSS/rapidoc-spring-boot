@@ -23,15 +23,14 @@ Or have a look here: https://rapidocweb.com/examples/petstore-extended.html
 +
 Make sure that there is no `org.springdoc : springdoc-openapi-ui` and `org.webjars : swagger-ui` dependencies on classpath.
 
-. Add dependency `com.playtika.services : rapidoc-spring-boot`
+. Add dependency `com.playtika : rapidoc-spring-boot`
 +
 --
-NOTE: Skip adding `<version>` for dependency if you are using Infra Bom 6.??+ version.
 
 [source,xml]
 ----
 <dependency>
-    <groupId>com.playtika.services</groupId>
+    <groupId>com.playtika</groupId>
     <artifactId>rapidoc-spring-boot</artifactId>
     <version>insert_version_here</version>
 </dependency>
