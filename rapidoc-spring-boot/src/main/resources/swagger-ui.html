@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Swagger UI</title>
+    <meta charset="utf-8">
+    <script type="module" src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+</head>
+<body>
+<!-- TODO: make options configurable See: https://rapidocweb.com/api.html -->
+<rapi-doc id="rapidoc"
+          sort-tags="false"
+          allow-spec-file-load="false"
+          allow-spec-url-load="false"
+          allow-server-selection="false"
+          theme="dark"
+          render-style="focused"
+></rapi-doc>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function (e) {
+        var host = window.location.protocol + "//" + window.location.host;
+        let elementById = document.getElementById('rapidoc');
+        elementById.setAttribute('spec-url', host + "/v3/api-docs")
+    })
+</script>
+</html>
