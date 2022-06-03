@@ -3,7 +3,7 @@ name: Changelog Release Drafter
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   update_release_draft:
