@@ -13,7 +13,7 @@
 
 == How UI looks like?
 
-image::images/rapidoc-ui.png[width=400]
+image::rapidoc-ui.png[width=800]
 
 Or have a look here: https://rapidocweb.com/examples/petstore-extended.html
 
