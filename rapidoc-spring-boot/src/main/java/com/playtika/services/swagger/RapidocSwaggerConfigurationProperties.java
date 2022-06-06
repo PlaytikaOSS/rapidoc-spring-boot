@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 
 @Data
 @Validated
-@ConfigurationProperties("swagger.rapidoc")
+@ConfigurationProperties("openapi.rapidoc")
 public class RapidocSwaggerConfigurationProperties {
 
     /**

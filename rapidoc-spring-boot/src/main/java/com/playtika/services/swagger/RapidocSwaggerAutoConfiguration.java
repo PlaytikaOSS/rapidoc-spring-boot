@@ -1,13 +1,12 @@
 package com.playtika.services.swagger;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@ConditionalOnProperty(value = "swagger.rapidoc.enabled", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(value = "openapi.rapidoc.enabled", havingValue = "true", matchIfMissing = true)
 @AutoConfigureAfter(WebMvcAutoConfiguration.class)
 @Configuration
 public class RapidocSwaggerAutoConfiguration {

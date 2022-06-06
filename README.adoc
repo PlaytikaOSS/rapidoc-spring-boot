@@ -43,15 +43,15 @@ Make sure that there is no `org.springdoc : springdoc-openapi-ui` and `org.webja
 |===
 |Property |Description |Default value
 
-|`swagger.rapidoc.enabled`
+|`openapi.rapidoc.enabled`
 |Enables/disables autoconfiguration for Rapidoc.
 |`true`
 
-|`swagger.rapidoc.open-api-spec.file-name`
+|`openapi.rapidoc.open-api-spec.file-name`
 |Name of the Open Api Spec file.
 |`openapi.yaml`
 
-|`swagger.rapidoc.open-api-spec.path`
+|`openapi.rapidoc.open-api-spec.path`
 |Path to the Open Api Spec file inside `/src/main/resources` folder.
 |`/openapi/`
 
