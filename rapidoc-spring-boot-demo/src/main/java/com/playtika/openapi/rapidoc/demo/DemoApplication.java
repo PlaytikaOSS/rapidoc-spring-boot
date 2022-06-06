@@ -1,4 +1,4 @@
-package com.playtika.services.swagger.demo;
+package com.playtika.openapi.rapidoc.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

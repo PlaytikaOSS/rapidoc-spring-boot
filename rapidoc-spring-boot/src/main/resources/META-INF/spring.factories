@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.playtika.services.swagger.RapidocSwaggerAutoConfiguration
+com.playtika.openapi.rapidoc.OpenApiRapidocAutoConfiguration

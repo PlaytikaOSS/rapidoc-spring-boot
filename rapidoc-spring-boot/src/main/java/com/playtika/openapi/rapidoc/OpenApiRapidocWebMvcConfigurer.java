@@ -1,14 +1,14 @@
-package com.playtika.services.swagger;
+package com.playtika.openapi.rapidoc;
 
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-public class RapidocSwaggerWebMvcConfigurer implements WebMvcConfigurer {
+public class OpenApiRapidocWebMvcConfigurer implements WebMvcConfigurer {
 
     private final String openApiSpecFile;
     private final String openApiSpecPath;
 
-    public RapidocSwaggerWebMvcConfigurer(String openApiSpecFile, String openApiSpecPath) {
+    public OpenApiRapidocWebMvcConfigurer(String openApiSpecFile, String openApiSpecPath) {
         this.openApiSpecFile = openApiSpecFile;
         this.openApiSpecPath = openApiSpecPath;
     }

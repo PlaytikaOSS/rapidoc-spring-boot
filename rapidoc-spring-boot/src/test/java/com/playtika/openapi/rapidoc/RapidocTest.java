@@ -1,4 +1,4 @@
-package com.playtika.services.swagger;
+package com.playtika.openapi.rapidoc;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -25,7 +25,7 @@ class RapidocTest {
                 .then()
                 .assertThat()
                 .statusCode(302)
-                .header("Location", "http://localhost:" + port + "/open-api.yml");
+                .header("Location", "http://localhost:" + port + "/openapi.yaml");
     }
 
     @Test

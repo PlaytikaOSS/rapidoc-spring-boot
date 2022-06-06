@@ -1,16 +1,14 @@
-package com.playtika.services.swagger;
+package com.playtika.openapi.rapidoc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class V3ApiDocsController {
+public class OpenApiSpecController {
 
     private final String openApiSpecFile;
 
-    public V3ApiDocsController(String openApiSpecFile) {
+    public OpenApiSpecController(String openApiSpecFile) {
         this.openApiSpecFile = openApiSpecFile;
     }
 

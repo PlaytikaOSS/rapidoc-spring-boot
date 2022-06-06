@@ -1,4 +1,4 @@
-package com.playtika.services.swagger;
+package com.playtika.openapi.rapidoc;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 @Data
 @Validated
 @ConfigurationProperties("openapi.rapidoc")
-public class RapidocSwaggerConfigurationProperties {
+public class OpenApiRapidocConfigurationProperties {
 
     /**
      * Enables/disables autoconfiguration for Rapidoc.
