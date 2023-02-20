@@ -53,7 +53,7 @@
         <spotless-maven-plugin.version>2.22.1</spotless-maven-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M6</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
 
         <spring-boot-dependencies.version>2.7.0</spring-boot-dependencies.version>
